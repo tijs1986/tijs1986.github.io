@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Twenty One Pilots - Sign Up</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Styles04.css'>
+    
+    <!-- <script type="text/javascript">
+        function    getData1(){
+            var a = document.getElementById('firstname').value;
+            var b = document.getElementById('lastname').value;
+            var c = document.getElementById('email').value;
+            var d = document.getElementById('sex').value;
+            var e = document.getElementById('password').value;
+
+            document.showingup.sfirstname.value = a;
+            document.showingup.slastname.value = b;
+            document.showingup.semail.value = c;
+            document.showingup.ssex.value = d;
+            document.showingup.spassword.value = e;
+
+        }
+
+        function    clearData(){
+
+            document.showingup.sfirstname.value = "";
+            document.showingup.slastname.value = "";
+            document.showingup.semail.value = "";
+            document.showingup.ssex.value = "";
+            document.showingup.spassword.value = "";
+
+        }
+
+
+    </script> -->
+ </head>
+ <body>
+    <div class="cont">
+        <div class="title">SIGN UP</div><br>
+        <form name="signup" id="signup" method="post">
+            <div class="form-group">
+                <span>first name</span>
+                <input type="text" name = "firstname" id="firstname" placeholder="enter your first name" style="margin-left: 16px" >
+            </div>
+            <div class="form-group">
+                <span>last name</span>
+                <input type="text" name = "lastname" id="lastname"  placeholder="enter your lastname" style="margin-left: 16px">
+            </div>
+            <div class="form-group">
+                <span>email</span>
+                <input type="email" name = "email" id="email" placeholder="enter a valid email" style="margin-left: 49px">
+            </div>
+            <div class="form-group">
+                <span>sex</span>
+                <select id="sex" name="sex" style="margin-left: 64px">
+                    <option value = "select">-Please Select-</option>
+                    <option value = "man">Man</option>
+                    <option value = "woman">Woman</option>
+                    <option value = "non-binary">Non-binary</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <span>password</span>
+                <input type="password" name = "password" id="password" placeholder="create your password" style="margin-left: 16px">
+            </div>
+            <div class="form-group">
+                <span>repassword</span>
+                <input type="password" name = "repassword" id="repassword" placeholder="reenter your password" style="margin-left: 1px">
+            </div><br>
+            <!-- <div class="form-btn">
+                <input class="btn01" id="btn01" type = "button" value="Showup" onclick="getData1()">
+            </div><br> -->
+            <div class="form-btn">
+                <input class="btn01" type = "submit" id="submit" value="Sign Up">
+            </div>
+        </form>
+    </div>
+    &nbsp &nbsp
+    <!-- <div class="cont">
+    <div class="title">SHOWING UP</div><br>
+        <form name="showingup" id="showingup">
+            <div class="form-group">
+                <span>first name</span>
+                <input type="text" name = "sfirstname" id="sfirstname" style="margin-left: 16px" >
+            </div>
+            <div class="form-group">
+                <span>last name</span>
+                <input type="text" name = "slastname" id="slastname"  style="margin-left: 16px">
+            </div>
+            <div class="form-group">
+                <span>email</span>
+                <input type="gemail" name = "semail" id="smail" placeholder="here comes your email" style="margin-left: 49px">
+            </div>
+            <div class="form-group">
+                <span>sex</span>
+                <input type="text" name = "ssex" id="ssex" placeholder="here comes your sex" style="margin-left: 49px">
+            </div>
+            <div class="form-group">
+                <span>password</span>
+                <input type="text" name = "spassword" id="spassword" placeholder="here comes your password" style="margin-left: 16px">
+            </div>
+            <br>
+            <div class="form-btn">
+                <input class="btn01" id="clear" type = "button" value="Clear" onclick="clearData()">
+            </div>
+        </form>
+    </div> -->
+</div>
+<script src='js/signup.js'></script>
+ </body>
+ </html>

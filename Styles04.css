@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.btn01{
+    background-color: #e3e92d;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.btn01:hover{
+    /* display: flex; */
+    padding: 15px 25px;
+    color: #e3e92d;
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10 px;
+    background: linear-gradient(110deg,rgb(227, 216, 16), rgb(255, 0, 0));
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+
+.cont{
+
+    background-color: white;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.cont .title{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+
+/* .cont01 form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 12px 0;
+} */
+
+.form-group{
+    margin-bottom: 15px;
+    /* width: calc(100%/2 - 20px); */
+
+    text-align: left;
+
+
+
+}
+
+/* .tab01{
+margin-left: 35px;
+margin-inline-start: ;
+} */
+
+span{
+    display: inline;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
