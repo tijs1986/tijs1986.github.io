@@ -29,7 +29,7 @@ aaa.addEventListener('submit', (e)=>{
     
     localStorage.setItem('users',JSON.stringify(User))
     alert('registro exitoso')
-            window.location.href = 's02.Task.Index.html'
+            window.location.href = 'index.html'
 })
 
 

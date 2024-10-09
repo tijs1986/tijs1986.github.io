@@ -12,6 +12,6 @@ login.addEventListener('submit',(e)=>{
     }
         alert('Welcome user.email')
         localStorage.setItem('login_success', JSON.stringify(validUser))
-        window.location.href = 's02.Task.Index.html'
+        window.location.href = 'index.html'
 
 })
